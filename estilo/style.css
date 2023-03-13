@@ -2,8 +2,37 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
-*{
-    font-family: 'Share Tech Mono', monospace;
+:root {
+    --cor01:white;
+    --cor02:#9ECFEB;
+    --cor03:#83A1D4;
+
+    --fonte01:'Share Tech Mono', 'Courier New', Courier, monospace; 
+    --fonte02: Arial, Helvetica, sans-serif;
+}
+
+* {
+    font-family: var(--fonte01);
     margin: 0px;
     padding: 0px;
+}
+
+body {
+    background-color: var(--cor02);
+}
+
+header {
+    width: 90vw;
+    height: 300px;
+    background-color: var(--cor02);
+    margin: auto;
+    box-shadow: 1px 1px 10px var(--cor03);
+    border-radius: 100px;
+}
+
+header h1 {
+    color: var(--cor01);
+    text-align: center;
+    font-size: 3em;
+    padding-top: 120px;
 }
