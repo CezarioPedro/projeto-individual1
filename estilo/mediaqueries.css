@@ -18,6 +18,18 @@ Grandes telas: acima de 1200px
     --fonte02: Arial, Helvetica, sans-serif;
 }
 
+@media screen and (max-width: 600px){
+    div.html img {
+        position: relative;
+        left: -20px;
+    }
+
+    div.css img {
+        position: relative;
+        left: -20px;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to top, var(--cor01), var(--cor02));
