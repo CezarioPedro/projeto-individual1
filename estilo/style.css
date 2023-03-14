@@ -22,17 +22,66 @@ body {
 }
 
 header {
-    width: 90vw;
-    height: 300px;
-    background-color: var(--cor02);
+    width: 100vw;
+    height: 250px;
     margin: auto;
-    box-shadow: 1px 1px 10px var(--cor03);
-    border-radius: 100px;
+    background-color: transparent;
 }
 
 header h1 {
     color: var(--cor01);
-    text-align: center;
-    font-size: 3em;
-    padding-top: 120px;
+    text-align: start;
+    font-size: 2.5em;
+    padding: 50px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.301);
+}
+
+div {
+    background-color: var(--cor01);
+    box-shadow: 1px 1px 10px var(--cor03);
+    border-radius: 100px;
+
+    width: 90vw;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    columns: 2;
+
+    font-size: 1.08em;
+    text-align: start;
+}
+
+div p {
+    padding-top: 30px;
+}
+
+div.html img {
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+
+div.css img {
+    position: relative;
+    left: -30px;
+    top: 50px;
+}
+
+div img:hover {
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+    transition: 0.5s;
+}
+
+div a.texto {
+    text-decoration: none;
+    color: var(--cor02);
+}
+
+div a.texto:hover {
+    font-weight: bolder;
+    font-size: 1.1em;
+    transition: 0.5s;
 }

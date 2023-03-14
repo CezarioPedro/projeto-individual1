@@ -6,22 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicons/favdev.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/mediaqueries.css">
     <title>Tela Principal</title>
 </head>
 <body>
     <header>
-        <h1>Conhecendo Um Pouco de HTML5 e CSS3</h1>
+        <h1>Conhecendo Um Pouco de HTML5 e CSS3.</h1>
     </header>
     <main>
         
         <div class="html">
-            <img src="imagens/html5.png" alt="Logo Html5">
-            <p>Neste tópico você conhecerá um pouco mais sobre HTML5</p>
+            <a href="#">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="imagens/html5-med.png" type="image/png">
+                    <img src="imagens/html5-peq.png" alt="Logo Html5">
+                </picture>
+            </a>
+            <p>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. <a href="#" class="texto">Clique aqui</a> ou na imagem para ler mais sobre este tópico.</p>
         </div>
 
         <div class="css">
-            <a href="#"><img src="imagens/css3.png" alt="Logo CSS3"></a>
-            <p>Neste tópico você conhecerá um pouco mais sobre CSS3</p>
+            <a href="#">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="imagens/css3-med.png" type="image/png">
+                    <img src="imagens/css3-peq.png" alt="Logo CSS3">
+                </picture>
+            </a>
+            <p>Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags &lt;style&gt;. <a href="#" class="texto">Clique aqui</a> ou na imagem para ler mais sobre este tópico.</p>
         </div>
     </main>
     
