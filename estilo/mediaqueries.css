@@ -21,7 +21,7 @@ Grandes telas: acima de 1200px
 @media screen and (max-width: 600px){
     div.html img {
         position: relative;
-        left: -10px;
+        left: -5px;
     }
 
     div.css img {
