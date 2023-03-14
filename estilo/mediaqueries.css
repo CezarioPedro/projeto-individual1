@@ -21,7 +21,7 @@ Grandes telas: acima de 1200px
 @media screen and (max-width: 600px){
 
     div p {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     div.html img {
