@@ -10,3 +10,11 @@
     --fonte01:'Share Tech Mono', 'Courier New', Courier, monospace; 
     --fonte02: Arial, Helvetica, sans-serif;
 }
+
+body {
+    background-image: linear-gradient(to right, var(--cor03), var(--cor02));
+}
+
+main {
+    height: 100vh;
+}
