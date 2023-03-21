@@ -37,6 +37,7 @@ header h1{
 header nav a {
     color: var(--cor01);
 
+    padding: 42px;
     font-size: 1em;
     text-decoration: none;
     text-shadow: 1px 1px 0px black;
