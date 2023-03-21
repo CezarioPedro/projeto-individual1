@@ -19,6 +19,7 @@
 header {
     background-image: linear-gradient(to bottom, var(--cor03), var(--cor02));
     font-family: var(--fonte01);
+    text-align: center;
     
     height: 200px;
 }
@@ -27,8 +28,6 @@ header h1{
     padding: 40px;
 
     font-size: 3em;
-    text-align: center;
-
     color: var(--cor01);
     text-shadow: 1px var(--cor02);
     text-shadow: 1px 1px 0px black;
@@ -37,7 +36,6 @@ header h1{
 header nav a {
     color: var(--cor01);
 
-    padding-left: 41px;
     font-size: 1em;
     text-decoration: none;
     text-shadow: 1px 1px 0px black;
