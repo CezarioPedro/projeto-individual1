@@ -9,10 +9,15 @@
     <link rel="stylesheet" href="estilo/estpaghtml.css">
     <title>Conhecendo HTML</title>
 </head>
-<body>
+<body onresize="mudoutamanho()">
     <header>
         <h1>HTML5</h1>
-        <nav><a href="index.html"><span class="material-symbols-outlined">menu</span> Menu de Conteúdos</a></nav>
+        <span class="material-symbols-outlined" id="burger" onclick="clickmenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="index.html">Menu de Conteúdos</a></li>
+            </ul>
+        </menu>
     </header>
     
     <main>
@@ -94,5 +99,24 @@
     <footer>
         
     </footer>
+
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickmenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+    } 
+    </script>
 </body>
 </html>
