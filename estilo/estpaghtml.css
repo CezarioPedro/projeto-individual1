@@ -107,8 +107,9 @@ main article p{
 
 main img {
     position: relative;
-    left: 30px;
+    left: 23px;
     width: 80%;
+    padding: 15px;
 }
 
 main article.azul strong {
