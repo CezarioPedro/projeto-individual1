@@ -128,12 +128,6 @@ main img {
     box-shadow: 1px 1px 3px black;
 }
 
-main img#html5 {
-    scale: .5;
-    margin: -80px;
-    left: 100px;
-}
-
 main article.azul strong {
     color: var(--cor02);
     text-shadow: .5px .5px black;
@@ -143,7 +137,6 @@ main article.lrj strong {
     color: var(--cor03);
     text-shadow: .5px .5px black;
 }
-
 
 footer {
     background-color: gray;
