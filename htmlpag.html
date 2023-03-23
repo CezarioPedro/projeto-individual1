@@ -85,8 +85,10 @@
 
             <h3>O DOCTYPE</h3>
 
-            <p>&lt;!DOCTYPE HTML&gt;<br>
-                Embora o <strong>DOCTYPE</strong> não seja uma tag <strong>HTML</strong>, ela deve ser a primeira linha antes do código, pois se tratar de uma instrução que indica ao navegador ou outro meio qual a versão de marcação o código foi escrito.</p>
+            <p class="codigo">
+                <code>&lt;!DOCTYPE HTML&gt;</code>
+            </p>
+                <p>Embora o <strong>DOCTYPE</strong> não seja uma tag <strong>HTML</strong>, ela deve ser a primeira linha antes do código, pois se tratar de uma instrução que indica ao navegador ou outro meio qual a versão de marcação o código foi escrito.</p>
                 
                 <p>Em versões anteriores, era necessário referenciar o DTD (Document Type Definition) diretamente no código <strong>DOCTYPE</strong>. Com o <strong>HTML5</strong>, essa referência fica por responsabilidade do próprio navegador.</p>
 
@@ -95,11 +97,21 @@
                 <p>Creio que foi notada a presença de um atributo no elemento . O “lang” é necessário para que os user-agents saibam qual é a linguagem principal do documento. É necessário lembrar que, o atributo “lang”, não está restrito somente ao elemento , podendo ser utilizado em qualquer outro elemento indicando a linguagem do texto representado.</p>
                 
                 <h3>HEAD</h3>
+                <p class="codigo">
+                    <code> 
+                        &lt;head&gt; <br>
+                        &lt;meta charset=”UTF-8”&gt; <br>
+                        &lt;title&gt;&lt;/title&gt; <br>
+                        &lt;/head&gt; <br>
+                    </code>
+                </p>
                 <p>Este é o local onde fica a “parte inteligente” do web site. No <strong>HEAD</strong>, ficam os metadados, ou seja, informações sobre a página e sobre o conteúdo publicado.</p>
                 
                 <h2>Metatag Charset</h2>
                 
-                &lt;meta charset=”UTF-8”&gt;
+                <p class="codigo">
+                    <code>&lt;meta charset=”UTF-8”&gt;</code>
+                </p>
                 <p>Este item chaveia a tabela de caracteres que vai ser utilizada pelo seu sistema.</p>
                 
                 <p>Cabe aqui uma explicação importante, bastante útil aos desenvolvedores e futuros desenvolvedores. A internet, por tradição, foi desenvolvida sob princípios de que não haveria limites para acesso, sendo assim, não importa se alguém estiver aqui no Brasil ou lá na China, ela pode acessar qualquer conteúdo disponível na web.</p>
