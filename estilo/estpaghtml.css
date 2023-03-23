@@ -92,6 +92,7 @@ main article h2{
 }
 
 main article h3{
+    text-align: center;
     padding-bottom: 20px;
     font-family: var(--fonte01);
     font-size: 1.5em;
@@ -102,4 +103,10 @@ main article p{
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 10px;
+}
+
+main img {
+    position: relative;
+    left: 30px;
+    width: 80%;
 }

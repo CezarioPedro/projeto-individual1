@@ -22,7 +22,7 @@
     
     <main>
         
-        <article class="azul">
+        <article>
 
             <h2>O que é o HTML?</h2>
 
@@ -34,6 +34,8 @@
 
             <p>HTML é uma abreviação de Hypertext Markup Language, ou seja, Linguagem de Marcação de Hipertexto. Resumindo, o HTML é uma linguagem usada para a publicação de conteúdo (texto, imagens, vídeos, áudio etc.) na web.</p>
 
+            <img src="imagens/hishtml.jpg" alt="Significado das letras HTML">
+
             <p>Para que você possa entender bem, o HTML é baseado no conceito de hipertexto, que são conjuntos de elementos ligados por conexões, que podem ser palavras, imagens, vídeos, áudio, documentos etc. que quando conectados, formam uma grande rede de informação. A conexão feita em um hipertexto é algo imprevisto que permite a comunicação de dados, organizando conhecimentos e guardando informações relacionadas.</p>
 
             <p>Entre 1993 e 1995, surgiram novas versões (HTML+, HTML 2.0, HTML 3.0) onde foram propostas diversas mudanças para enriquecer as possibilidades da linguagem, mas, ela ainda não era tratada como padrão. Apenas em 1997, o grupo de trabalho do W3C, trabalhou na versão 3.2, fazendo com que ela fosse tratada como prática comum.</p>
@@ -44,7 +46,7 @@
 
         </article>
 
-        <article class="azul">
+        <article>
             <h2>Depois de saber tudo isso, agora vamos saber o que é o HTML5 e quais suas principais mudanças</h2>
 
             <p>O HTML5 é a nova versão do HTML4 e um dos seus principais objetivos é facilitar a manipulação dos elementos, possibilitando o desenvolvedor modificar as características dos objetos de forma não intrusiva, fazendo com que isso fique transparente para o usuário final.</p>
@@ -58,7 +60,7 @@
             <p>Mas, caso você esteja pensando “vou ter de refazer todo o meu web site”, a WHATWG tem mantido o foco na retro compatibilidade, ou seja, você não irá precisar refazer todo o trabalho para se adequar aos novos conceitos e regras.</p>
         </article>
 
-        <article class="laranja">
+        <article>
             <h2>Estrutura básica</h2>
 
             <p>A estrutura básica do HTML5 foi mantida, sofrendo uma pequena alteração no DOCTYPE. Abaixo podemos ver no exemplo:</p>
@@ -101,14 +103,6 @@
     </footer>
 
     <script>
-
-        function mudouTamanho() {
-            if (window.innerWidth >= 768) {
-                itens.style.display = 'block'
-            } else {
-                itens.style.display = 'none'
-            }
-        }
 
         function clickmenu() {
             if (itens.style.display == 'block') {
