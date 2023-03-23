@@ -108,9 +108,11 @@ main article p{
 
 main img {
     position: relative;
-    left: -26px;
-    width: 105%;
+    left: -10px;
+    top: -10px;
+    width: 80%;
     padding: 15px;
+    box-shadow: 1px 1px 3px black;
 }
 
 main img#html5 {
