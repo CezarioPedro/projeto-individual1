@@ -62,13 +62,12 @@ menu > ul > li > a{
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: transparent;
     color: white;
+    text-shadow: 1px 1px 2px var(--cor03);
 }
 
 menu ul li a:hover{
     background-color: var(--cor03);
-    transition: .5s;
 }
 
 main {
@@ -82,11 +81,21 @@ main {
     background-color: var(--cor01);
 
     font-family: var(--fonte02);
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 main article h2{
     padding-bottom: 20px;
+    font-family: var(--fonte01);
+    font-size: 1.9em;
+    text-shadow: 1px 1px 2px var(--cor02);
+}
+
+main article h3{
+    padding-bottom: 20px;
+    font-family: var(--fonte01);
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px var(--cor03);
 }
 
 main article p{
