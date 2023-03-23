@@ -110,3 +110,13 @@ main img {
     left: 30px;
     width: 80%;
 }
+
+main article.azul strong {
+    color: var(--cor02);
+    text-shadow: .5px .5px black;
+}
+
+main article.lrj strong {
+    color: var(--cor03);
+    text-shadow: .5px .5px black;
+}
