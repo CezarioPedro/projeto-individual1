@@ -1,1 +1,48 @@
 @charset "UTF-8";
+
+/* Typical Device Breakpoints
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+:root {
+    --cor01: white;
+    --cor02: #9ECFEB;
+    --cor03: #58B7EE;
+    --cor04: #28526B;
+
+    --fonte01:'Share Tech Mono', 'Courier New', Courier, monospace; 
+    --fonte02: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 4em;
+        text-align: center;
+        text-shadow: 1px 1px 2px var(--cor04);
+
+        padding: 40px;
+    }
+
+    main {
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px)  {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
