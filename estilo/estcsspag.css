@@ -6,7 +6,8 @@
     --cor01: white;
     --cor02: #9ECFEB;
     --cor03: #58B7EE;
-    --cor04: #28526B;
+    --cor04: #28526B;  
+    --cor05: #FFA136;
 
     --fonte01:'Share Tech Mono', 'Courier New', Courier, monospace; 
     --fonte02: Arial, Helvetica, sans-serif;
@@ -91,4 +92,21 @@ main h3{
     font-family: var(--fonte01);
     font-size: 1.5em;
     text-shadow: 1px 1px 2px var(--cor03);
+}
+
+main p {
+    font-family: var(--fonte02);
+    text-align: justify;
+    text-indent: 10px;
+    padding: 10px;
+}
+
+main p strong.azul {
+    color: var(--cor03);
+    text-shadow: .5px .5px 1px black;
+}
+
+main p strong.laranja {
+    color: var(--cor05);
+    text-shadow: .5px .5px 1px black;
 }
