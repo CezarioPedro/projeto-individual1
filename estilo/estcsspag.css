@@ -87,13 +87,6 @@ main h2{
     text-shadow: 1px 1px 2px var(--cor02);
 }
 
-main h3{
-    text-align: center;
-    font-family: var(--fonte01);
-    font-size: 1.5em;
-    text-shadow: 1px 1px 2px var(--cor03);
-}
-
 main p {
     font-family: var(--fonte02);
     text-align: justify;
